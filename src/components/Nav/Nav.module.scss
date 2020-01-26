@@ -1,0 +1,21 @@
+@import "../../assets/scss/variables";
+
+.nav {
+  height: $base_unit * 15;
+  width: 100%;
+  border-bottom: 1px solid var(--color-dark-grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    color: var(--color-dark-green);
+    margin-left: $space-0 * 10;
+  }
+}
+.btnsContainer {
+  display: flex;
+  width: $base_unit * 40;
+  justify-content: space-around;
+  margin-right: $space-0 * 10;
+}

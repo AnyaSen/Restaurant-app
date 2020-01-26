@@ -1,0 +1,8 @@
+@import "../../assets/scss/variables";
+
+.restaurantList {
+  background-color: var(--color-light-grey);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

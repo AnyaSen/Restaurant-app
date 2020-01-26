@@ -1,0 +1,19 @@
+@import "../../assets/scss/variables";
+
+.primaryButton {
+  padding: $space-0;
+  border: none;
+  background-color: var(--color-blue);
+  border-radius: $base_unit / 1.5;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out;
+  transition-duration: 0.3s;
+
+  &:hover {
+    transition: ease-in-out;
+    background-color: var(--color-light-blue);
+    transition-duration: 0.3s;
+  }
+}
