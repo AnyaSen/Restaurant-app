@@ -1,4 +1,5 @@
 @import "../../assets/scss/variables";
+@import "../../assets/scss/breakpoints";
 
 .primaryButton {
   padding: $space-0;
@@ -10,6 +11,13 @@
   cursor: pointer;
   transition: ease-in-out;
   transition-duration: 0.3s;
+  @include sm {
+    font-size: $font-xs;
+    margin: $space-1;
+  }
+  @include xs {
+    font-size: $font-xxs;
+  }
 
   &:hover {
     transition: ease-in-out;

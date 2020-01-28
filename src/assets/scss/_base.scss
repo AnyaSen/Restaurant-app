@@ -1,6 +1,4 @@
-// Global parent element
 :root {
-  // Custom properties
   --color-light-grey: #f8f8f8;
   --color-grey: #f9f9f9;
   --color-dark-grey: #e4e4e4;
@@ -15,18 +13,13 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-*,
-*::before,
-*::after {
   box-sizing: inherit;
 }
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
   color: var(--color-text-color);
+  font-size: 63%;
 }
 
 body {
@@ -39,9 +32,4 @@ body {
   min-width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.Link {
-  text-decoration: none;
-  color: inherit;
 }

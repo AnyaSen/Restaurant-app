@@ -34,7 +34,7 @@ export default function Restaurant({
       </h3>
 
       <h4 style={{ color: online ? "green" : "red" }}>
-        {online ? "ONLINE!" : "OFFLINE"}
+        {online ? `AVAILABLE NOW!` : "OFFLINE"}
       </h4>
 
       <p>{description}</p>

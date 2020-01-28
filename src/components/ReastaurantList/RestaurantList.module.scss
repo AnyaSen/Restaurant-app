@@ -1,6 +1,9 @@
 @import "../../assets/scss/variables";
 
 .restaurantList {
+  margin-top: $base_unit * 15;
+  z-index: 0;
+  position: absolute;
   background-color: var(--color-light-grey);
   display: flex;
   flex-wrap: wrap;

@@ -1,7 +1,10 @@
 @import "../../assets/scss/variables";
-
+@import "../../assets/scss/breakpoints";
 .nav {
+  position: fixed;
+  z-index: 9999;
   height: $base_unit * 15;
+  background-color: white;
   width: 100%;
   border-bottom: 1px solid var(--color-dark-grey);
   display: flex;
@@ -11,6 +14,13 @@
   h1 {
     color: var(--color-dark-green);
     margin-left: $space-0 * 10;
+    @include sm {
+      margin-left: $space-5;
+    }
+    @include xs {
+      margin-left: $space-2;
+      font-size: $font-sm;
+    }
   }
 }
 .btnsContainer {
@@ -18,4 +28,8 @@
   width: $base_unit * 40;
   justify-content: space-around;
   margin-right: $space-0 * 10;
+  @include sm {
+    margin-right: $space-1;
+    justify-content: flex-end;
+  }
 }
