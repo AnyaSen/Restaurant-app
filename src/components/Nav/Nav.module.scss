@@ -25,11 +25,12 @@
 }
 .btnsContainer {
   display: flex;
-  width: $base_unit * 40;
+  width: $base_unit * 50;
   justify-content: space-around;
   margin-right: $space-0 * 10;
   @include sm {
-    margin-right: $space-1;
     justify-content: flex-end;
+    margin-right: $space-1;
+    width: 100%;
   }
 }

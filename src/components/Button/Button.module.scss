@@ -11,12 +11,14 @@
   cursor: pointer;
   transition: ease-in-out;
   transition-duration: 0.3s;
+  margin: $space-1;
   @include sm {
     font-size: $font-xs;
     margin: $space-1;
   }
   @include xs {
     font-size: $font-xxs;
+    margin: $space-0;
   }
 
   &:hover {
