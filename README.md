@@ -15,5 +15,3 @@ clone / download the app
 
 npm install
 npm start
-
-The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
