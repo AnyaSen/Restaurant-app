@@ -13,5 +13,5 @@ clone / download the app
 
 #### In the app folder
 
-npm install
-npm start
+* npm install
+* npm start
